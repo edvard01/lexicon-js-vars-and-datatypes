@@ -62,13 +62,29 @@ function exercise8() {
   console.log(`results in order: ${result1}, ${result2}, ${result3}`);
 }
 
+function exercise9() {
+  let a = 10;
+  console.log(a);
+  a += 5;
+  console.log(a);
+}
+
+function exercise10() {
+  //First log is 10
+  //Second log is 15
+}
+
 function runExercises() {
   exercise1();
   exercise2();
   exercise3();
   exercise4();
+  exercise5();
+  exercise6();
   exercise7();
   exercise8();
+  exercise9();
+  exercise10();
 }
 
 runExercises();

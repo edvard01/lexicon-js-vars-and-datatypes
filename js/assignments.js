@@ -29,8 +29,37 @@ function exercise3() {
 function exercise4() {
   const name = "Twix";
   console.log(name);
-  console.log((name = "Mars"));
+  //console.log((name = "Mars"));
   //Fix this by using another keyword either let or var for name. Or Create another const called newName or name2.
+}
+
+function exercise5() {
+  //For example adding security to a webpage, bool can be used to store whether user is logged in or not.
+}
+
+function exercise6() {
+  let changeable = true;
+  //We should declare is at let, so we don't have to redeclare another variable later which would take up more memory than nessesary.
+}
+
+function exercise7() {
+  let number1 = 100;
+  let number2 = 200;
+
+  let result = number1 + number2;
+
+  console.log(result);
+}
+
+function exercise8() {
+  let number1 = 20;
+  let number2 = 5;
+
+  let result1 = number1 - number2;
+  let result2 = number1 * number2;
+  let result3 = number1 / number2;
+
+  console.log(`results in order: ${result1}, ${result2}, ${result3}`);
 }
 
 function runExercises() {
@@ -38,6 +67,8 @@ function runExercises() {
   exercise2();
   exercise3();
   exercise4();
+  exercise7();
+  exercise8();
 }
 
 runExercises();
